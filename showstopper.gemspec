@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/showstopper.rb",
+     "showstopper.gemspec",
      "test/helper.rb",
      "test/test_showstopper.rb"
   ]
