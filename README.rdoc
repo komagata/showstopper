@@ -1,6 +1,19 @@
 = showstopper
 
-Description goes here.
+ShowStopper is capistrano recipe that stopping deploy if rspec was red.
+
+== INSTALLATION
+
+  $ gem install showstopper -s http://gemcutter.org
+
+load recipe.
+
+  $ vi Capfile
+  load 'showstopper'
+
+let's deploy
+
+  $ cap deploy
 
 == Note on Patches/Pull Requests
  
